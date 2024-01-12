@@ -1,0 +1,12 @@
+@font-face {
+    font-family:my-font ;
+    src: url('../public/07a54048a9278940-s.p.ttf');
+}
+body {
+    background-color: #FFFCFB;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
