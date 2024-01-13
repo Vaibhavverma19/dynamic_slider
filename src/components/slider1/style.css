@@ -53,7 +53,7 @@
     align-items: center;
     border-radius: 10px;
     box-shadow: 3px 3px 10px #efe6ff;
-    position: relative;
+    /* position: relative; */
   }
   .left p{
     font-size: 80%;
