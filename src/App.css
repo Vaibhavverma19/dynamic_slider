@@ -21,9 +21,10 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 10vh;
+    /* background: #f7f3ff; */
     
 }
 .slider-1 h1{
     
-  color: #FE7B67;
+  color: #474748;
 }

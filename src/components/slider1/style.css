@@ -6,8 +6,8 @@
     /* margin-top: 25vh; */
     width: 90vw;
     height: 60vh;
-    border: 1px solid #FE7B67;
-    border-radius: 20px;
+    /* border: 1px solid #FE7B67;
+    border-radius: 20px; */
   }
   
   .swiper-slide {
@@ -15,7 +15,7 @@
     border-radius: 5px;
     text-align: center;
     font-size: 18px;
-    background: #FEECE4;
+    /* background: #FEECE4; */
     
     /* Center slide text vertically */
     display: flex;
@@ -33,58 +33,83 @@
     
   }
   .right{
-   
+    margin-top: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 30%;
+    background: transparent;
+    gap: 5px;
     
   }
   .left{
-    width: 100%;
-    height: 80%;
+    width: 60%;
+    height: 50%;
     display: flex;
+    padding: 0px 40px;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px #efe6ff;
+    position: relative;
   }
   .left p{
-    font-size: 2rem;
+    font-size: 80%;
     font-style: italic;
     padding: 20px 20px;
+    
     
     position: relative;
   }
   .left p::before{
-    content:  url('../../../public/icons8-double-quotes-48.png');
+    content:  url('../../../public/left\ top\ corner.png');
     background: transparent;
     position: absolute;
-    top: 0px;
-    left: -30px;
+    
+    top: 10px;
+    left: -10px;
   }
   .left p::after{
-    content:  url('../../../public/icons8-double-quotes-48\ \(1\).png');
+    content:  url('../../../public/bottom-right.png');
     background: transparent;
     position: absolute;
-    bottom: 0px;
-    right: -30px;
+    bottom: 10px;
+    right: -10px;
+  }
+ 
+  .down-arrow{
+    height: 10;
+    width: 10;
+    position: absolute;
+    bottom: 35%;
+    
+    /* background: red; */
+    border-left: 45px solid transparent;
+    border-right: 45px solid transparent;
+    border-top: 45px solid #ede5f9;
+    /* z-index: 999; */
   }
   .image{
-    width: 5vmax;
-    height: 5vmax;
-    border: 2px solid #FE7B67;
+    width: 4vw;
+    height: 4vw;
+    border: 4px solid #ede5f9;
     border-radius: 50%;
     object-fit: cover;
    
   }
   .right h1{
-    font-size: 3vh;
+    font-size: 2.5vh;
     font-variant: small-caps;
-    color: #FE7B67;
+    color: #474748;
+  }
+  .desg{
+    font-variant:normal ;
+    font-size: 1.8vh;
   }
   .left img{
-    height: 80%;
+    height: 70%;
     
     object-fit: cover;
   }

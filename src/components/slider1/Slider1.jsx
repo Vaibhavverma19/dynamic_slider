@@ -16,6 +16,7 @@ export default function Slider1() {
   return (
     <>
       <Swiper
+        
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
@@ -51,13 +52,16 @@ export default function Slider1() {
                 consistent and ambitious.you wouldn't regret hiring him.
               </p>
             </div>
+              <div className="down-arrow"></div>
             <div className="right">
               <img
                 src="./piyush.jpg"
                 alt="image of customer"
                 className="image"
               />
-              <h1 className="name">Piyush</h1>
+              <h1 className="name">Piyush
+              <br />
+              <span className="desg">Accha Dost</span></h1>
             </div>
           </div>
         </SwiperSlide>
@@ -71,13 +75,17 @@ export default function Slider1() {
                 thinking is also one of the strengths.
               </p>
             </div>
+            <div className="down-arrow"></div>
             <div className="right">
               <img
                 src="./kriti.jpg"
                 alt="image of customer"
                 className="image"
               />
-              <h1 className="name">Kriti verma</h1>
+              <h1 className="name">Kriti verma
+              <br />
+              <span className="desg">Pyari behen</span>
+              </h1>
             </div>
           </div>
         </SwiperSlide>
@@ -89,13 +97,17 @@ export default function Slider1() {
                 positive attitude, and, notably, his loyalty to people.
               </p>
             </div>
+            <div className="down-arrow"></div>
             <div className="right">
               <img
                 src="./bharti.jpg"
                 alt="image of customer"
                 className="image"
               />
-              <h1 className="name">Aditya Bharti</h1>
+              <h1 className="name">Aditya Bharti
+              <br />
+              <span className="desg">Kamina dost</span>
+              </h1>
             </div>
           </div>
         </SwiperSlide>
@@ -108,13 +120,16 @@ export default function Slider1() {
                 skills, and is a consistent.
               </p>
             </div>
+            <div className="down-arrow"></div>
             <div className="right">
               <img
                 src="./ayush.jpg"
                 alt="image of customer"
                 className="image"
               />
-              <h1 className="name">Ayush</h1>
+              <h1 className="name">Ayush
+              <br />
+              <span className="desg">Bhai </span></h1>
             </div>
           </div>
         </SwiperSlide>
@@ -128,13 +143,16 @@ export default function Slider1() {
                 thinking show he has a lot of potential for success.
               </p>
             </div>
+            <div className="down-arrow"></div>
             <div className="right">
               <img
                 src="./shreya.jpg"
                 alt="image of customer"
                 className="image"
               />
-              <h1 className="name">Shreya Bhardwaj</h1>
+              <h1 className="name">Shreya Bhardwaj
+              <br />
+              <span className="desg">Pyari dost</span></h1>
             </div>
           </div>
         </SwiperSlide>
@@ -143,12 +161,34 @@ export default function Slider1() {
             <div className="left">
               <h3>Kaisa laga?</h3>
             </div>
+            <div className="down-arrow"></div>
+            <div className="right">
+              <img
+                src="./vaibhav pic.jpg"
+                alt="image of customer"
+                className="image"
+              />
+              <h1 className="name">Vaibhav Verma
+              <br />
+              <span className="desg">Mai khud</span></h1>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="content">
             <div className="left">
               <img src="./selection1.gif" alt="" />
+            </div>
+            <div className="down-arrow"></div>
+            <div className="right">
+              <img
+                src="./vaibhav pic.jpg"
+                alt="image of customer"
+                className="image"
+              />
+              <h1 className="name">Vaibhav Verma
+              <br />
+              <span className="desg">Mai khud</span></h1>
             </div>
           </div>
         </SwiperSlide>
@@ -157,12 +197,34 @@ export default function Slider1() {
             <div className="left">
               <img src="./selection2.webp" alt="" />
             </div>
+            <div className="down-arrow"></div>
+            <div className="right">
+              <img
+                src="./vaibhav pic.jpg"
+                alt="image of customer"
+                className="image"
+              />
+              <h1 className="name">Vaibhav verma
+              <br />
+              <span className="desg">Mai khud</span></h1>
+            </div>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="content">
             <div className="left">
               <img src="./salaryy.jpeg" alt="" />
+            </div>
+            <div className="down-arrow"></div>
+            <div className="right">
+              <img
+                src="./ankur.jpg"
+                alt="image of customer"
+                className="image"
+              />
+              <h1 className="name">Ankur Warikoo
+              <br />
+              <span className="desg">Entrepreneur</span></h1>
             </div>
           </div>
         </SwiperSlide>
