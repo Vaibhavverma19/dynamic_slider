@@ -64,7 +64,7 @@
     position: relative;
   }
   .left p::before{
-    content:  url('../../../public/left\ top\ corner.png');
+    content:  url('../../../public/lefttopcorner.png');
     background: transparent;
     position: absolute;
     
