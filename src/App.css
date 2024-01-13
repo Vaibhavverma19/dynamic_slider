@@ -1,18 +1,9 @@
-html,
- {
-  /* position: relative; */
-  height: 100%;
+
+@font-face {
+  font-family:my-font ;
+  src: url('../public/07a54048a9278940-s.p.ttf');
 }
 
-body {
-    height: 100%;
-  background-color: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
 .slider-1{
     height: 100%;
     width: 100%;
@@ -25,6 +16,6 @@ body {
     
 }
 .slider-1 h1{
-    
+  font-family:my-font;
   color: #474748;
 }
